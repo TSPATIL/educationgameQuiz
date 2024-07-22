@@ -1,0 +1,51 @@
+body {
+    background-color: #e0cefc;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #650cf0;
+    color: black;
+    padding: 0;
+    height: 50px; /* Set a fixed height for the navbar */
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: medium;
+    font-weight: 300; /* Set the font weight to thin by default */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black; /* Change color to black on hover */
+    font-weight: bold; /* Set font weight to bold on hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: purple;
+}
+
+/* Custom Cards */
+.custom-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.overflow-y-scroll {
+    overflow-y: auto;
+}
